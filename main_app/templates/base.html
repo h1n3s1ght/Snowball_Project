@@ -24,6 +24,8 @@
           </ul>
           <ul class="right">
             <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'dashboard' %}">View All Debts</a></li>
+            <li><a href="{% url 'addDebt' %}">Add a Debt</a></li>
             {% comment %} {% if user.is_authenticated %}
             <li><a href="{% url 'debt_create' %}">Add a Debt</a></li>
             <li><a href="{% url 'index' %}">View All Debts</a></li>
