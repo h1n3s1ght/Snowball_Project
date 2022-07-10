@@ -5,11 +5,13 @@
 
 body {
     min-height: 100vh;
-    background-image: url(https://i.imgur.com/nso0uto.jpg);
 }
+/* 
+.container main {
+    background-image: url(https://i.imgur.com/nso0uto.jpg);
+} */
 
 .container {
-    background-color: white;
     margin-top: 2%;
     margin-bottom: 3%;
     padding: 4%;

@@ -1,0 +1,46 @@
+{% extends 'base.html' %} 
+{% block title %}
+{% comment %} {{user.fname}} {% endcomment%}
+Dashboard:
+{% endblock %}
+{% block content %}
+{% comment %} <div class="dashContainer">
+    <div class="container">
+        <h1>
+            Total Debt:
+        </h1>
+        <hr />
+        <p>
+
+        </p>
+    </div>
+    <div class="container"> {% endcomment %}
+        <h1>
+            Current debts:
+        </h1>
+
+        {% for Debt in Debts %}
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">
+                    {{Debt.name}}
+                </span>
+                <a href="/debt/{{Debt.id}}">
+                <div class="showEach" style="display: none;">
+                    <p>
+                        Total Owed: ${{Debt.total}}
+                    </p>
+                    <p>
+                        Minimum Monthly Payment: ${{Debt.paymentMin}}
+                    </p>
+                    <p>
+                        Next Payment Due: {{Debt.paymentDay}} 
+                    </p>
+                </div>
+                </a>
+            </div>
+        </div>
+    {% comment %} </div>
+</div> {% endcomment %}
+{% endfor %}
+{% endblock %}
