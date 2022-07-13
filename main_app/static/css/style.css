@@ -5,6 +5,7 @@
 
 body {
     min-height: 100vh;
+    /* background-image: url(https://i.imgur.com/nso0uto.jpg); */
 }
 /* 
 .container main {
@@ -32,8 +33,54 @@ strong {
     font-weight: 700;
 }
 
+/* footer{
+    background-color: #bacbd8;
+} */
+
 .page-footer {
     color: black;
+    background-color: #bacbd8;
+}
+
+#footerRight {
+    text-align: center;
+    width: 100%;
     padding-right: 1%;
-    margin-top: 1%;
+    padding-bottom: 1%;
+    background-color: #bacbd8;
+}
+
+.nav-wrapper {
+    background-color: #bacbd8;
+}
+
+.left.brand-logo, #headerRight a {
+    color: black;
+}
+
+.homepageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.displayInput input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.displayInput input[type="text"]{
+    padding: 20px 2px;
+    line-height: 28px;
+    font-size: 1.6em;
+    font-weight: 800;
+    background-color: rgba(255, 136, 134, .5);
+}
+
+.displayInput {
+    height: 10vh;
 }

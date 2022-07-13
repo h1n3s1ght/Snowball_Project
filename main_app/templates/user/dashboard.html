@@ -4,43 +4,42 @@
 Dashboard:
 {% endblock %}
 {% block content %}
-{% comment %} <div class="dashContainer">
+<div class="dashContainer">
     <div class="container">
         <h1>
             Total Debt:
         </h1>
         <hr />
-        <p>
-
-        </p>
+        <div class="displayInput">
+        <input type="text" value="${{totalDebt.total__sum}}" readonly/>
+        </div>
     </div>
-    <div class="container"> {% endcomment %}
+    <div class="container">
         <h1>
             Current debts:
         </h1>
+        <hr/>
 
-        {% for Debt in Debts %}
-        <div class="card">
-            <div class="card-content">
-                <span class="card-title">
-                    {{Debt.name}}
-                </span>
-                <a href="/debt/{{Debt.id}}">
-                <div class="showEach" style="display: none;">
-                    <p>
-                        Total Owed: ${{Debt.total}}
-                    </p>
-                    <p>
-                        Minimum Monthly Payment: ${{Debt.paymentMin}}
-                    </p>
-                    <p>
-                        Next Payment Due: {{Debt.paymentDay}} 
-                    </p>
-                </div>
-                </a>
+{% for Debt in Debts %} 
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">
+                    <strong> {{Debt.name}} </strong>
+            </span>
+            <a href="/debt/{{Debt.id}}">
+            <div class="showEach" style="display: none;">
+                <p>
+                    Total Owed: ${{Debt.total}}
+                </p>
+                <p>
+                    Minimum Monthly Payment: ${{Debt.paymentMin}}
+                </p>
+                <p>
+                    Next Payment Due: {{Debt.paymentDay}} 
+                </p>             
             </div>
-        </div>
-    {% comment %} </div>
-</div> {% endcomment %}
+        </a>
+    </div>
+</div>
 {% endfor %}
 {% endblock %}
