@@ -2,7 +2,7 @@
 A website that helps you plan out how to pay off your debts!
 Home Page Welcome Screen
 
-##Description
+## Description
 
 <img src="https://i.imgur.com/C4UIQfP.png">
 
