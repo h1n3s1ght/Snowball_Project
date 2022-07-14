@@ -11,9 +11,9 @@ I have one for myself in an excel spreadsheet, but this could be a great source 
 In the “Snowball” database, Users will first be the first Table created.   Upon accessing the website a user will be asked to create or sign in to a profile.  Users info will include- (Name, email, password, and Primary-ID).  In the next Table of Debt, They will be asked to add the total owed, debt provider name, billing date (monthly), percentage of interest rates, and current minimum payment.
 The hope would be to create an easy dashboard that shows the user the total still owed, the monthly minimum payment (totaled), and the expected deadline to have things paid off.
 
-## Eventually this page will also give:
+## Eventually this page will:
 
-A make payments methods that will allow the user to make a payemnt toward a specific debt. without deleting the debt or manually changing the value of the debt after the payment.
+Make payments toward a specific debt. Without deleting the debt or manually changing the value of the debt after the payment.
 
 
 ## Table of Contents
