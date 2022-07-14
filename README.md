@@ -23,14 +23,16 @@ Features
 Design
 Project Next Steps
 About the Author
+
+
 Technologies Used
-JavaScript
-HTML5
-CSS3
-jQuery
-Python
-Django
-PostgreSQL
+-JavaScript
+-HTML5
+-CSS3
+-jQuery
+-Python
+-Django
+-PostgreSQL
 
 Design
 Design elements implemented using Flex-box and CSS3
