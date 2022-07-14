@@ -34,12 +34,12 @@ About the Author
 * Django
 * PostgreSQL
 
-##Design
+## Design
 Design elements implemented using Flex-box and CSS3
 Project Next Steps
 CSS Edits like:
 Media Queries for smaller screens
 JavaScript Functions for usability
 
-About The Author
+## About The Author
 I build website applications and will be focusing on the Full-Stack development. I have a computer science degree, but have been focusing on Full-Stack development since graduation.
