@@ -19,5 +19,10 @@
             Monthly Payment: {{Debt.paymentMin}}
         </p>
     </div>
+    <div class="card-action">
+    <a href="{% url 'debt_update' Debt.id %}">Edit</a>
+    <a href="{% url 'debt_delete' Debt.id %}">Delete</a>
+  </div>
 </div>
+
 {% endblock %}

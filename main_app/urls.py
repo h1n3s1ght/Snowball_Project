@@ -9,4 +9,6 @@ urlpatterns = [
     path('debt/create/', views.addDebt.as_view(), name='addDebt' ),
     path('debt/<int:Debt_id>/', views.debt_details, name='debt_details'),
     path('accounts/signup/', views.signup, name='signup'),
+    path('debt/<int:pk>/update/', views.DebtUpdate.as_view(), name='debt_update'),
+    path('debt/<int:pk>/delete/', views.DebtDelete.as_view(), name='debt_delete'),
 ]

@@ -5,7 +5,7 @@ Dashboard:
 {% endblock %}
 {% block content %}
 <div class="dashContainer">
-    <div class="container">
+    <div class="containers">
         <h1>
             Total Debt:
         </h1>
@@ -14,7 +14,16 @@ Dashboard:
         <input type="text" value="${{totalDebt.total__sum}}" readonly/>
         </div>
     </div>
-    <div class="container">
+    <div class="containers">
+        <h1>
+            Minimum Monthly Payments:
+        </h1>
+        <hr />
+        <div class="displayInput">
+        <input type="text" value="${{MinMonPay.paymentMin__sum}}" readonly/>
+        </div>
+    </div>
+    <div class="containers">
         <h1>
             Current debts:
         </h1>
