@@ -30,7 +30,7 @@ def dashboard(request):
 
 class addDebt(LoginRequiredMixin,CreateView):
     model = Debt
-    fields = ['name', 'total', 'description', 'paymentMin', 'interest', 'paymentDay']
+    fields = ['name', 'total', 'description', 'paymentMin', 'interest', 'paymentDay', 'lPayAmount']
     success_url = '/dashboard/'
 
     def addDebt(request):

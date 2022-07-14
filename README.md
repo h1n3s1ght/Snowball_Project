@@ -3,7 +3,7 @@ A website that helps you plan out how to pay off your debts!
 Home Page Welcome Screen
 
 Description
-
+![alt text] (https://i.imgur.com/C4UIQfP.png)
 
 My idea for this project would be to create an application that allows the user to calculate and plan how to pay their current debt.  This application would be using the “Snowball Method”.  The “snowball method,” simply put, means paying off the smallest of all your loans as quickly as possible. Once that debt is paid, you take the money you were putting toward that payment and roll it onto the next-smallest debt owed. Ideally, this process would continue until all accounts are paid off.
 I have one for myself in an excel spreadsheet, but this could be a great source for many.
