@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{% block title %} {% endblock %}</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="{% static 'scripts/app.js'%}"></script>
+    <script src="{% static '/scripts/app.js'%}"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+     <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}" />
   </head>
   <body>
     {% load static %}
