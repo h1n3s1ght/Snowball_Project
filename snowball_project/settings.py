@@ -78,7 +78,11 @@ WSGI_APPLICATION = 'snowball_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Snowball_Project',
+        'NAME': 'degbsnf4qd69tg',
+        'HOST': 'ec2-3-219-52-220.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'qlcmzqdjimmlfj',
+        'PASSWORD': 'd9ab89952fdc3cc072f8b0b4ced96c0725ab7847d8653da39e390a39ee7e3e75',
     }
 }
 
